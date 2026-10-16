@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Home Calendar</title>
+<style>
+  :root { color-scheme: light dark; }
+  body { font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif; line-height: 1.6; max-width: 46rem; margin: 0 auto; padding: 2rem 1.25rem 4rem; }
+  h1 { font-size: 1.9rem; margin-bottom: .25rem; }
+  h2 { font-size: 1.2rem; margin-top: 2rem; }
+  .muted { opacity: .7; }
+  code { background: rgba(127,127,127,.18); padding: 1px 6px; border-radius: 5px; word-break: break-all; }
+  nav a { margin-right: 1rem; }
+</style>
+</head>
+<body>
+<nav><a href="./">Home</a><a href="./privacy.html">Privacy Policy</a></nav>
+<h1>Home Calendar</h1>
+<p class="muted">A personal calendar for a household wall tablet.</p>
+
+<p>Home Calendar is a small personal project. It runs on a tablet mounted at home and shows the owner's own
+Google Calendar events next to a to-do list, kitchen timers, a meal plan and a clock.</p>
+
+<h2>What it does with Google Calendar</h2>
+<ul>
+  <li>Signs in with your Google Account and asks for <strong>read-only</strong> access to your calendars
+      (<code>https://www.googleapis.com/auth/calendar.readonly</code>).</li>
+  <li>Imports your calendars and their events, including titles, times, locations, notes and colors, so they
+      appear on the home screen.</li>
+  <li>Never creates, changes or deletes anything in your Google Calendar. Data only flows from Google to the app.</li>
+  <li>Keeps the imported events on the owner's own devices at home. Nothing is sent to the developer or to any
+      other service.</li>
+</ul>
+
+<h2>Who it is for</h2>
+<p>Home Calendar is a single-user, personal-use application. It is not distributed to the public.</p>
+
+<h2>Privacy</h2>
+<p>Read the <a href="./privacy.html">Privacy Policy</a> to see exactly what data is accessed, how it is stored,
+and how to remove access at any time.</p>
+
+<p class="muted">Last updated: October 15, 2026</p>
+</body>
+</html>
